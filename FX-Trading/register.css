@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red-hat-font-family: "Red Hat Dsiplay", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.register {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.image_register {
+  padding-top: 17%;
+  width: 50%;
+  text-align: center;
+  background-color: aquamarine;
+}
+img {
+  width: 500px;
+}
+.register_right {
+  margin: auto;
+  width: 20%;
+}
+.text {
+  font-size: 16px;
+  font-family: var(--red-hat-font-family);
+  color: #7c7c7c;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+.register_label {
+  color: #7c7c7c;
+  font-family: var(--red-hat-font-family);
+  font-size: 16px;
+}
+#register,
+#pass {
+  border-style: none;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.register_btn {
+  width: 100%;
+  background-color: #3496f0;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register_paragraph {
+  text-align: right;
+  font-size: 14px;
+  font-family: var(--red-hat-font-family);
+  padding-top: 10px;
+  color: #7c7c7c;
+}
+a {
+  color: #3496f0;
+  text-decoration: none;
+}

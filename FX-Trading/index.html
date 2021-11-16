@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="image_login">
+        <img src="./images/logo-grayscale.svg" alt="" class="img_left" />
+      </div>
+      <div class="login_right">
+        <p class="text">Login to your account</p>
+        <div class="container">
+          <div class="username">
+            <i class="fas fa-user"></i>
+            <input
+              type="text"
+              id="login"
+              placeholder="Username"
+              name="uname"
+              required
+            />
+          </div>
+
+          <div class="pass">
+            <i class="fas fa-unlock"></i>
+            <input
+              type="password"
+              id="pass"
+              placeholder="Password"
+              name="psw"
+              required
+            />
+          </div>
+
+          <button class="login_btn" type="submit">Login</button>
+          <p class="login_paragraph">
+            You don't have an account? <a href="./register.html">Register</a>
+          </p>
+          <p class="login_paragraph">
+            Move to FX-Trading View
+            <a href="./FX-Trading.html">FX-Trading View</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
